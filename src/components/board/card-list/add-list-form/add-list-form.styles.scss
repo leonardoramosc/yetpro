@@ -1,0 +1,74 @@
+form {
+
+  textarea {
+    height: 60px;
+    width: 100%;
+    resize: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    color: #172b4d;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+
+  .list-title-input {
+    width: 100%;
+    padding: 8px 12px;
+    box-shadow: inset 0 0 0 2px #0079bf;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    color: #172b4d;
+    font-size: 14px;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  
+  }
+
+  .add-list-controllers {
+    display: flex;
+    align-items: center;
+
+    .add-list-btn {
+      background-color: #0079bf;
+      border: none;
+      min-height: 32px;
+      padding: 8px 12px;
+      color: #fff;
+      border-radius: 3px;
+      font-size: 16px;
+      margin-right: 1rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #026aa7;
+      }
+
+      &:active {
+        background-color: #055a8c;
+      }
+    }
+
+    .close-add-list {
+      border: none;
+      background-color: transparent;
+      font-size: 3rem;
+      color: #6b778c;;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: #42526e;
+      }
+
+      i {
+        font-size: inherit;
+      }
+    }
+  }
+}
